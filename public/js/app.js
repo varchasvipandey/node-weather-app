@@ -12,7 +12,7 @@ weatherForm.addEventListener("submit", e => {
   msg3.innerHTML = "";
 
   //make api call
-  fetch(`http://localhost:3000/weather?address=${location}`).then(response => {
+  fetch(`/weather?address=${location}`).then(response => {
     response.json().then(data => {
       if (data.error) {
         msg1.innerHTML = `Errror: ${data.error}`;
@@ -26,5 +26,3 @@ weatherForm.addEventListener("submit", e => {
     });
   });
 });
-
-//modified one
