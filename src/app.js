@@ -31,7 +31,7 @@ app.use(express.static(publicDirectoryPath));
 
 app.get("", (req, res) => {
   res.render("index", {
-    title: "Weather App",
+    title: "Weather Or Not",
     name: "Varchasvi"
   }); //render file made using view engine
   //name of the file as string. second argument is optional and is used to inject data to the hbs page so that it can make use of those values
