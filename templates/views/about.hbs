@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <title>Weather Or Not: {{title}}</title>
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -12,7 +12,8 @@
 <body>
     <div class="main-content">
         {{>header}}
-        <p>created by {{name}}</p>
+        <p>This site is create by {{name}}. This application is making use of Mapbox API to get latitude and longitude
+            of entered location and DarkSky API to fetch real time weather.</p>
     </div>
     {{>footer}}
 </body>

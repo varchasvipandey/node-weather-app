@@ -64,8 +64,8 @@ app.get("/weather", (req, res) => {
 
 app.get("/about", (req, res) => {
   res.render("about", {
-    title: "About Section",
-    name: "Jordan"
+    title: "About",
+    name: "Varchasvi"
   });
 });
 
@@ -79,8 +79,8 @@ app.get("/products", (req, res) => {
 
 app.get("/help", (req, res) => {
   res.render("help", {
-    title: "Help Area",
-    name: "Jordan"
+    title: "Help",
+    name: "Varchasvi"
   });
 });
 
